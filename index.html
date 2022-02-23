@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Import Bulma and FontAwesome library-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Chronometer</title>
+</head>
+<body>
+
+<div style="min-height: 80vh; justify-content: center; align-content: center; display: grid">
+    <div class="is-flex is-vcentered">
+        <div class="card">
+            <div class="card-content has-text-centered">
+                <div class="block">
+                    <div id="time-value" class="title is-one"></div>
+                    <button id="start-button" class="button is-primary">Start</button>
+                    <button id="stop-button" class="button is-danger">Stop</button>
+                    <button id="clear-button" class="button">Clear</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="content has-text-centered">
+        <p>
+            <strong>Chronometer</strong> by <a href="https://github.com/LucasVbr">Lucas Vbr</a>. The source code is available on
+            <a href="https://github.com/LucasVbr/chronometer"><span class="icon-text">
+              <span class="icon">
+                <i class="fa-brands fa-github-alt"></i>
+              </span>
+              <span>GitHub</span>
+            </span></a>.
+        </p>
+    </div>
+</footer>
+
+
+<script src="Chronometer.js"></script>
+<script src="main.js"></script>
+
+</body>
+</html>
